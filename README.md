@@ -1,2 +1,3 @@
-# ValidationsLibrary
-This is a test app for swift package manager
+# ValidationLibrary
+
+A description of this package.
