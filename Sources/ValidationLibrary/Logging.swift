@@ -21,7 +21,7 @@ public protocol Logging { }
 
 public extension Logging {
     
-    func log(message: String, loglevel: LogLevel = .info) {
+    func log(message: String, loglevel: LogLevel = .debug) {
         print("[\(loglevel.description)] \(Date()): \(message)")
     }
 }
