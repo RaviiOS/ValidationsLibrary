@@ -17,7 +17,7 @@ public enum LogLevel: String {
     }
 }
 
-public struct Logging { }
+public protocol Logging { }
 
 public extension Logging {
     
